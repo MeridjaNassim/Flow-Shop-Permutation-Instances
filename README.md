@@ -11,7 +11,7 @@ A randomly generated set of of flow shop of permutation instances
 - **machines** : number of machines in the instance 
 - **instance** : a 2D array where each row represents a job and each elements (i,j) is the cost of job i on machine j
 - **distribution** : the distribution used to generate the costs
-- **optimal_seq** : the optimal scheduling sequence found by running the exact method Bramch and bound on the instance.
+- **optimal_seq** : the optimal scheduling sequence found by running the exact method Branch and bound on the instance.
 - **makespan** : the finishing date of the last task on the last machine ( the objective function to minimize )
 
 # Usage 
